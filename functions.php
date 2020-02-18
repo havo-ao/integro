@@ -120,10 +120,15 @@ add_action( 'widgets_init', 'integro_widgets_init' );
  * Enqueue scripts and styles.
  */
 function integro_scripts() {
+// Stylesheets
+	wp_enqueue_style( 'bootstrap_4_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/css/main.css' );
 	wp_enqueue_style( 'integro-style', get_stylesheet_uri() );
-
+	
+//Scripts
+	wp_enqueue_script( 'bootstrap_4_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '4.4', true );
+	wp_enqueue_script( 'font_awesome_script', 'https://kit.fontawesome.com/26a6afcf94.js', array('jquery'), '1', true );
 	wp_enqueue_script( 'integro-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
-
 	wp_enqueue_script( 'integro-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

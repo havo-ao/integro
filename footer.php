@@ -10,8 +10,8 @@
  */
 
 ?>
-
-	</div><!-- #content -->
+</div>
+	</div>
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">

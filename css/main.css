@@ -1,0 +1,104 @@
+
+.integro-menu {
+    position: absolute !important;
+    z-index: 30;
+    right: 0;
+}
+
+.ol-tr{
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.sl-btn {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 14px 65px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+
+.downy{
+    color: #5CC9C1;
+}
+
+.blumine-bg{
+    background-color: #164D61;
+}
+
+.slider-img img{
+    filter: brightness(40%);
+}
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom-line {
+    width: 100%;
+    max-width: 15rem;
+    height: .12rem;
+    background-color: #5CC9C1!important;
+}
+
+.header-custom-line {
+    width: 100%;
+    max-width: 20rem;
+    height: 0.2rem;
+    background-color: #fff!important;
+}
+
+.divider-custom-icon {
+    color: #2c3e50!important;
+    font-size: 1rem;
+}
+
+.carousel-prnx{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+
+.slider-img img {
+    width: 100%;
+    display: block;
+    user-select: none;
+    filter: brightness(40%);
+}
+
+.slider-m {
+    width: 90px;
+    position: absolute;
+    top: 20px; right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
