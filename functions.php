@@ -123,6 +123,8 @@ function integro_scripts() {
 // Stylesheets
 	wp_enqueue_style( 'bootstrap_4_css', get_template_directory_uri() . '/css/bootstrap.min.css' );
 	wp_enqueue_style( 'main', get_template_directory_uri() . '/css/main.css' );
+	wp_enqueue_style( 'font-raleway', 'http://fonts.googleapis.com/css?family=Raleway' );
+	wp_enqueue_style( 'font-monserrat', 'http://fonts.googleapis.com/css?family=Montserrat' );
 	wp_enqueue_style( 'integro-style', get_stylesheet_uri() );
 	
 //Scripts

@@ -17,7 +17,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/elastic_grid.min.css" />
+	
+
 	<?php wp_head(); ?>
+
+	<style>
+		.div-bg{
+			background-image: url('<?php echo get_template_directory_uri(); ?>/img/bs.jpg');
+			width:100%;
+			height:100%;
+		}
+
+	</style>
+
+	
 </head>
 
 <body <?php body_class(); ?>>

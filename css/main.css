@@ -24,8 +24,28 @@
     color: #5CC9C1;
 }
 
+.blumine{
+    color: #164D61;
+}
+
 .blumine-bg{
     background-color: #164D61;
+}
+
+.spacing{
+    letter-spacing: 3px;
+}
+
+.sans-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    color:#666666;
+}
+
+.raleway-title{
+    font-family: "Raleway", sans-serif;
+    
 }
 
 .slider-img img{
@@ -97,8 +117,100 @@
     color: rgb(255, 255, 255);
 }
 
+/*content*/
 
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.timeline svg { width: 20px; height: 20px; fill: #ffffff; }
 
+/*content aside*/
 
+.timeline .tm-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 
+.tm-left .tm-left-icon {
+    width: 40px; height: 40px;
+    background-color: #0f3543;
+    border-radius: 50%;
+}
+
+.tm-left svg {
+    position: relative;
+    left: 1px;
+    top: 7px;
+}
+
+.tm-left .tm-left-t {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tm-left .tm-left-m {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.tm-sb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tm-sb .tm-line {
+    width: 1px; height: 280px;
+    background-color: #ffffff;
+}
+
+.tm-sb .tm-sb-icon {
+    position: relative;
+    top: -150px;
+    width: 24px; height: 24px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.tm-sb-icon svg {
+    position: relative;
+    left: 0px;
+    top: -2px;
+    width: 16px;
+    height: 16px;
+    fill: #5cc9c1;
+}
+
+.timeline .tm-des {
+    width: 78%;
+    text-align: left !important;
+}
+
+.tm-des span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.tm-des .line {
+    width: 60px; height: 1px;
+    margin-top: 10px; margin-bottom: 10px;
+    background-color: #5cc9c1;
+}
+
+.tm-des p {
+    opacity: 0.8;
+    text-align: left;
+}
