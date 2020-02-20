@@ -15,9 +15,9 @@ _Para ejecutar el quickstart solo necesitas tener acceso a un servidor, y crear 
 
 _Para instalar el quickstart:_
 
-_Ingresa a la carpeta "quickstart", y descarga su contenido _
+_Descarga el repositorio, e ingresa a la carpeta "quickstart" _
 
-_Una vez descargado, encontrarás un archivo (installer.php), y una carpeta (20200219_integro_86ca89b47b4bb7ef1856_20200219185541_archive). Copia el nombre exacto de la carpeta, ingresa a la carpeta, selecciona todos los archivos, agrégalos a un archivo .zip y renombra el archivo .zip con el nombre que copiaste, teniendo como resultado:_ 
+_Una vez descargado, encontrarás un archivo (installer.php), y una carpeta (20200219_integro_86ca89b47b4bb7ef1856_20200219185541_archive). Copia el nombre exacto de la carpeta, ingresa a la carpeta, selecciona todos los archivos dentro de la carpeta, agrégalos a un archivo .zip y renombra el archivo .zip con el nombre que copiaste, teniendo como resultado un archivo llamado:_ 
 
 ```
 20200219_integro_86ca89b47b4bb7ef1856_20200219185541_archive.zip
